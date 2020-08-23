@@ -103,7 +103,7 @@ url = "contact/"
 weight = 5
 
 [languages.pt-br]
-languagename = ""
+languagename = "English"
 title = ""
 
 [languages.pt-br.params]
