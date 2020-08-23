@@ -16,7 +16,7 @@ featured_image: /images/1_a0bdxhaicfheazb1jbinra.png
 ---
 <!--StartFragment-->
 
-![Image for post](https://miro.medium.com/max/4200/1*A0BDxHAicFheAzB1jbinRA.png)
+![Image for post]()
 
 We are going to compare these two services in the following order:
 
@@ -228,8 +228,6 @@ For creating real-time applications, you will want to use the GraphQL API along 
 # Final Thoughts
 
 ![Image for post](https://miro.medium.com/max/60/0*EG-_V52phphmvWx9?q=20)
-
-
 
 Photo by [James Pond](https://unsplash.com/@jamesponddotco?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
 
