@@ -6,6 +6,7 @@ series:
   - Theme
   - Hugo
 description: ""
+featured_image: /images/1_wi7v3z2vvs0ps-xppbi5la.jpeg
 ---
 - - -
 
