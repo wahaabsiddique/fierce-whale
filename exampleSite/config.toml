@@ -103,14 +103,14 @@ url = "contact/"
 weight = 5
 
 [languages.pt-br]
-languagename = "Português"
-title = "João Ninguém"
+languagename = ""
+title = ""
 
 [languages.pt-br.params]
-author = "João Ninguém"
-info = "Welcome to my website"
-description = "Sítio pessoal de João Ninguém"
-keywords = "blog,desenvolvedor,pessoal"
+author = ""
+info = ""
+description = ""
+keywords = ""
 footercontent = ""
 
 [languages.pt-br.menu]
