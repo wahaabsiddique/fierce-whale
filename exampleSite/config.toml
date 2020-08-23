@@ -117,22 +117,22 @@ since = 2020
 [languages.pt-br.menu]
 
 [[languages.pt-br.menu.main]]
-name = "Sobre"
+name = "میرے بارے میں"
 url = "about/"
 weight = 1
 
 [[languages.pt-br.menu.main]]
-name = "Blog"
+name = "بلاگ"
 url = "posts/"
 weight = 2
 
 [[languages.pt-br.menu.main]]
-name = "Projetos"
+name = "پروجیکٹ"
 url = "projects/"
 weight = 3
 
 [[languages.pt-br.menu.main]]
-name = "Contato"
+name = "رابطہ"
 url = "contact/"
 weight = 5
 
