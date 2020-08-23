@@ -1,5 +1,5 @@
 ---
-title: Sobre Hugo
+title: میرے بارے میں
 slug: about
 ---
 
