@@ -59,14 +59,6 @@ icon = "fab fa-medium"
 weight = 5
 url = "https://medium.com/@wahaabsiddique"
 
-[[params.social]]
-name = "RSS"
-icon = "fas fa-rss"
-weight = 6
-url = "https://myhugosite.com/index.xml"
-rel = "alternate"
-type = "application/rss+xml"
-
 [params.plausibleAnalytics]
 domain = "example.com"
 serverURL = "analytics.example.com"
