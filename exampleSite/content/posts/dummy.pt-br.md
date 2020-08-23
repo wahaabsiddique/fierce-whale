@@ -3,10 +3,9 @@ title: How to Identify a Smart Person in 3 Minutes
 date: 2020-08-23T19:00:00.000Z
 slug: How to Identify a Smart Person in 3 Minutes
 tags:
-  - hugo
-  - i18n
+  - Identify a Smart Person
 categories:
-  - blog
+  - Psychology
 featured_image: /images/1_wi7v3z2vvs0ps-xppbi5la.jpeg
 ---
 <!--StartFragment-->
