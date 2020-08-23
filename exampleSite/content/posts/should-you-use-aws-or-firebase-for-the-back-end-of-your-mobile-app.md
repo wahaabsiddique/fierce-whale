@@ -229,7 +229,7 @@ For creating real-time applications, you will want to use the GraphQL API along 
 
 ![Image for post](https://miro.medium.com/max/60/0*EG-_V52phphmvWx9?q=20)
 
-!\[Image for post](<>)
+
 
 Photo by [James Pond](https://unsplash.com/@jamesponddotco?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
 
