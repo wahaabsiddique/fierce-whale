@@ -103,15 +103,16 @@ url = "contact/"
 weight = 5
 
 [languages.pt-br]
-languagename = "English"
-title = ""
+languagename = "اردو"
+title = "وھاب صدیق"
 
 [languages.pt-br.params]
-author = ""
-info = ""
-description = ""
+author = "وھاب صدیق"
+info = "میری ویب سائٹ میں خوش آمدید"
+description = "میری ویب سائٹ میں خوش آمدید"
 keywords = ""
 footercontent = ""
+since = 2020
 
 [languages.pt-br.menu]
 
