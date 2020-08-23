@@ -11,72 +11,76 @@ pygmentscodefencesguesssyntax = true
 disqusShortname = "yourdiscussshortname"
 
 [params]
-author = "Wahaab Siddique"
-description = "Wahaab Siddique's personal website"
-keywords = "blog,developer,personal"
-info = "Welcome to my website."
-avatarurl = "images/avatar1.jpg"
-hideFooter = false
-footercontent = ""
-dateformat = "January 2, 2006"
-hideCredits = false
 hideCopyright = false
-since = 2_019
-commit = "https://github.com/luizdepra/hugo-coder/tree/"
-rtl = false
+dateformat = "January 2, 2006"
 colorscheme = "auto"
 maxSeeAlsoItems = 5
-custom_css = [ ]
-custom_js = [ ]
+rtl = false
+keywords = "blog,developer,personal"
+author = "Wahaab Siddique"
+info = "Welcome to my website."
+custom_css = []
+avatarurl = "images/avatar.jpg"
+custom_js = []
+commit = "https://github.com/luizdepra/hugo-coder/tree/"
+hideCredits = false
+since = 2019
+description = "Wahaab Siddique's personal website"
+hideFooter = false
+footercontent = ""
 
-  [[params.social]]
-  name = "Github"
-  icon = "fab fa-github"
-  weight = 1
-  url = "https://github.com/wahaab11/"
+[[params.social]]
+name = "Github"
+icon = "fab fa-github"
+weight = 1
+url = "https://github.com/wahaab11/"
 
-  [[params.social]]
-  name = "Gitlab"
-  icon = "fab fa-gitlab"
-  weight = 2
-  url = "https://gitlab.com/wahaabsiddique/"
+[[params.social]]
+name = "Gitlab"
+icon = "fab fa-gitlab"
+weight = 2
+url = "https://gitlab.com/wahaabsiddique/"
 
-  [[params.social]]
-  name = "Twitter"
-  icon = "fab fa-twitter"
-  weight = 3
-  url = "https://twitter.com/wahaabsiddique/"
+[[params.social]]
+name = "Twitter"
+icon = "fab fa-twitter"
+weight = 3
+url = "https://twitter.com/wahaabsiddique/"
 
-  [[params.social]]
-  name = "LinkedIn"
-  icon = "fab fa-linkedin"
-  weight = 4
-  url = "https://www.linkedin.com/in/wahaabsiddique/"
+[[params.social]]
+name = "LinkedIn"
+icon = "fab fa-linkedin"
+weight = 4
+url = "https://www.linkedin.com/in/wahaabsiddique/"
 
-  [[params.social]]
-  name = "Medium"
-  icon = "fab fa-medium"
-  weight = 5
-  url = "https://medium.com/@wahaabsiddique"
+[[params.social]]
+name = "Medium"
+icon = "fab fa-medium"
+weight = 5
+url = "https://medium.com/@wahaabsiddique"
 
-  [[params.social]]
-  name = "RSS"
-  icon = "fas fa-rss"
-  weight = 6
-  url = "https://myhugosite.com/index.xml"
-  rel = "alternate"
-  type = "application/rss+xml"
+[[params.social]]
+name = "RSS"
+icon = "fas fa-rss"
+weight = 6
+url = "https://myhugosite.com/index.xml"
+rel = "alternate"
+type = "application/rss+xml"
 
-  [params.fathomAnalytics]
-  siteID = "ABCDE"
-  serverURL = "analytics.example.com"
+[params.plausibleAnalytics]
+domain = "example.com"
+serverURL = "analytics.example.com"
 
-  [params.plausibleAnalytics]
-  domain = "example.com"
-  serverURL = "analytics.example.com"
+[params.fathomAnalytics]
+siteID = "ABCDE"
+serverURL = "analytics.example.com"
+
+[languages]
 
 [languages.en]
 languagename = "English"
+
+[languages.en.menu]
 
 [[languages.en.menu.main]]
 name = "About"
@@ -102,12 +106,14 @@ weight = 5
 languagename = "Português"
 title = "João Ninguém"
 
-  [languages.pt-br.params]
-  author = "João Ninguém"
-  info = "Welcome to my website"
-  description = "Sítio pessoal de João Ninguém"
-  keywords = "blog,desenvolvedor,pessoal"
-  footercontent = ""
+[languages.pt-br.params]
+author = "João Ninguém"
+info = "Welcome to my website"
+description = "Sítio pessoal de João Ninguém"
+keywords = "blog,desenvolvedor,pessoal"
+footercontent = ""
+
+[languages.pt-br.menu]
 
 [[languages.pt-br.menu.main]]
 name = "Sobre"
