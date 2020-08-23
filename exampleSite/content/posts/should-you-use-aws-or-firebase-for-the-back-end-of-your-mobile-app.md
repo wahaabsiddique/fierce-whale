@@ -1,6 +1,8 @@
 ---
 title: Should You Use AWS or Firebase For the Back end of Your Mobile App?
 date: 2020-08-23T17:50:30.621Z
+tags:
+  - firebase, aws,
 description: "One Is Not Better Than the Other One Why? Because the right
   question to ask is: “Which is the right solution for your requirements?”  I
   have been developing native Android apps for quite a while and have recently
