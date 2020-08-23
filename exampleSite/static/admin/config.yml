@@ -1,0 +1,494 @@
+backend:
+  name: git-gateway
+  branch: master
+media_folder: exampleSite/static/images
+public_folder: /images
+collections:
+  - name: config
+    label: Config
+    files:
+      - name: config
+        label: Config
+        file: exampleSite/config.toml
+        fields:
+          - widget: string
+            name: title
+            label: Title
+            required: true
+          - widget: string
+            name: baseurl
+            label: Base URL
+            required: false
+            hint: Hostname (and path) to the root
+          - widget: string
+            name: languagecode
+            label: Languagecode
+            required: false
+          - widget: string
+            name: defaultcontentlanguage
+            label: Defaultcontentlanguage
+            required: false
+          - widget: string
+            name: themesDir
+            label: Themes Dir
+            required: false
+          - widget: string
+            name: theme
+            label: Theme Name
+            required: false
+          - widget: number
+            name: paginate
+            label: Paginate
+            required: false
+            valueType: int
+          - widget: boolean
+            name: canonifyurls
+            label: Canonifyurls
+            required: false
+          - widget: string
+            name: pygmentsstyle
+            label: Pygmentsstyle
+            required: false
+          - widget: boolean
+            name: pygmentscodefences
+            label: Pygmentscodefences
+            required: false
+          - widget: boolean
+            name: pygmentscodefencesguesssyntax
+            label: Pygmentscodefencesguesssyntax
+            required: false
+          - widget: string
+            name: disqusShortname
+            label: Disqus Shortname
+            required: false
+          - widget: object
+            name: params
+            label: Params
+            required: false
+            hint: Site parameters
+            fields:
+              - widget: string
+                name: author
+                label: Author
+                required: false
+              - widget: string
+                name: description
+                label: Description
+                required: false
+              - widget: string
+                name: keywords
+                label: Keywords
+                required: false
+              - widget: string
+                name: info
+                label: Info
+                required: false
+              - widget: string
+                name: avatarurl
+                label: Avatarurl
+                required: false
+              - widget: boolean
+                name: hideFooter
+                label: Hide Footer
+                required: false
+              - widget: string
+                name: footercontent
+                label: Footercontent
+                required: false
+              - widget: string
+                name: dateformat
+                label: Dateformat
+                required: false
+              - widget: boolean
+                name: hideCredits
+                label: Hide Credits
+                required: false
+              - widget: boolean
+                name: hideCopyright
+                label: Hide Copyright
+                required: false
+              - widget: number
+                name: since
+                label: Since
+                required: false
+                valueType: int
+              - widget: string
+                name: commit
+                label: Commit
+                required: false
+              - widget: boolean
+                name: rtl
+                label: Rtl
+                required: false
+              - widget: string
+                name: colorscheme
+                label: Colorscheme
+                required: false
+              - widget: number
+                name: maxSeeAlsoItems
+                label: Max See Also Items
+                required: false
+                valueType: int
+              - widget: list
+                name: custom_css
+                label: Custom Css
+                required: false
+                field:
+                  label: String
+                  name: string
+                  widget: string
+              - widget: list
+                name: custom_js
+                label: Custom Js
+                required: false
+                field:
+                  label: String
+                  name: string
+                  widget: string
+              - widget: list
+                name: social
+                label: Social Media Icons
+                required: false
+                fields:
+                  - widget: string
+                    name: name
+                    label: Name
+                    required: false
+                  - widget: string
+                    name: icon
+                    label: Icon
+                    required: false
+                  - widget: number
+                    name: weight
+                    label: Weight
+                    required: false
+                    valueType: int
+                  - widget: string
+                    name: url
+                    label: URL
+                    required: false
+                  - widget: string
+                    name: rel
+                    label: Rel
+                    required: false
+                  - widget: string
+                    name: type
+                    label: Type
+                    required: false
+              - widget: object
+                name: fathomAnalytics
+                label: Fathom Analytics (optional)
+                required: false
+                fields:
+                  - widget: string
+                    name: siteID
+                    label: ID for Fathom Analytics
+                    required: false
+                  - widget: string
+                    name: serverURL
+                    label: URL for Fathom Analytics
+                    required: false
+              - widget: object
+                name: plausibleAnalytics
+                label: Plausible Analytics (optional)
+                required: false
+                fields:
+                  - widget: string
+                    name: domain
+                    label: Website domain for Plausible Analytics
+                    required: false
+                  - widget: string
+                    name: serverURL
+                    label: URL for Plausible Analytics
+                    required: false
+          - widget: object
+            name: languages
+            label: Languages
+            required: false
+            fields:
+              - widget: object
+                name: en
+                label: En
+                required: false
+                fields:
+                  - widget: string
+                    name: languagename
+                    label: Languagename
+                    required: false
+                  - widget: string
+                    name: title
+                    label: Title
+                    required: false
+                  - widget: object
+                    name: params
+                    label: Params
+                    required: false
+                    fields:
+                      - widget: string
+                        name: author
+                        label: Author
+                        required: false
+                      - widget: string
+                        name: info
+                        label: Info
+                        required: false
+                      - widget: string
+                        name: description
+                        label: Description
+                        required: false
+                      - widget: string
+                        name: keywords
+                        label: Keywords
+                        required: false
+                      - widget: string
+                        name: footercontent
+                        label: Footercontent
+                        required: false
+                      - widget: number
+                        name: since
+                        label: Since
+                        required: false
+                        valueType: int
+                  - widget: object
+                    name: menu
+                    label: Menu
+                    required: false
+                    fields:
+                      - widget: list
+                        name: main
+                        label: Main
+                        required: false
+                        fields:
+                          - widget: string
+                            name: identifier
+                            label: Identifier
+                            required: false
+                          - widget: string
+                            name: name
+                            label: Title
+                            required: true
+                          - widget: string
+                            name: url
+                            label: URL
+                            required: true
+                          - widget: number
+                            name: weight
+                            label: Weight
+                            required: false
+                            hint: Position for sorting
+                            valueType: int
+                          - widget: string
+                            name: parent
+                            label: Parent Menu Identifier
+                            required: false
+                            hint: >-
+                              The parent of an entry should be the identifier of
+                              another entry.
+              - widget: object
+                name: pt-br
+                label: Pt Br
+                required: false
+                fields:
+                  - widget: string
+                    name: languagename
+                    label: Languagename
+                    required: false
+                  - widget: string
+                    name: title
+                    label: Title
+                    required: false
+                  - widget: object
+                    name: params
+                    label: Params
+                    required: false
+                    fields:
+                      - widget: string
+                        name: author
+                        label: Author
+                        required: false
+                      - widget: string
+                        name: info
+                        label: Info
+                        required: false
+                      - widget: string
+                        name: description
+                        label: Description
+                        required: false
+                      - widget: string
+                        name: keywords
+                        label: Keywords
+                        required: false
+                      - widget: string
+                        name: footercontent
+                        label: Footercontent
+                        required: false
+                      - widget: number
+                        name: since
+                        label: Since
+                        required: false
+                        valueType: int
+                  - widget: object
+                    name: menu
+                    label: Menu
+                    required: false
+                    fields:
+                      - widget: list
+                        name: main
+                        label: Main
+                        required: false
+                        fields:
+                          - widget: string
+                            name: identifier
+                            label: Identifier
+                            required: false
+                          - widget: string
+                            name: name
+                            label: Title
+                            required: true
+                          - widget: string
+                            name: url
+                            label: URL
+                            required: true
+                          - widget: number
+                            name: weight
+                            label: Weight
+                            required: false
+                            hint: Position for sorting
+                            valueType: int
+                          - widget: string
+                            name: parent
+                            label: Parent Menu Identifier
+                            required: false
+                            hint: >-
+                              The parent of an entry should be the identifier of
+                              another entry.
+          - widget: object
+            name: taxonomies
+            label: Taxonomies
+            required: false
+            fields:
+              - widget: string
+                name: category
+                label: Category
+                required: false
+              - widget: string
+                name: series
+                label: Series
+                required: false
+              - widget: string
+                name: tag
+                label: Tag
+                required: false
+  - name: basicpage
+    label: Basic Pages
+    folder: exampleSite/content/
+    create: true
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - widget: string
+        name: title
+        label: Title
+        required: false
+      - widget: string
+        name: slug
+        label: Slug
+        required: false
+      - widget: markdown
+        name: body
+        label: Content
+        required: false
+        hint: Page content
+  - name: post
+    label: Blog posts
+    folder: exampleSite/content/posts
+    create: true
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - widget: string
+        name: title
+        label: Title
+        required: false
+      - widget: date
+        name: date
+        label: Date
+        required: false
+      - widget: string
+        name: slug
+        label: Slug
+        required: false
+      - widget: list
+        name: tags
+        label: Tags
+        required: false
+        field:
+          label: String
+          name: string
+          widget: string
+      - widget: list
+        name: categories
+        label: Categories
+        required: false
+        field:
+          label: String
+          name: string
+          widget: string
+      - widget: list
+        name: series
+        label: Series
+        required: false
+        field:
+          label: String
+          name: string
+          widget: string
+      - widget: string
+        name: externalLink
+        label: External Link
+        required: false
+      - widget: string
+        name: description
+        label: Description
+        required: false
+      - widget: boolean
+        name: math
+        label: Math
+        required: false
+      - widget: boolean
+        name: katex
+        label: Katex
+        required: false
+      - widget: list
+        name: images
+        label: Images
+        required: false
+        field:
+          label: String
+          name: string
+          widget: string
+      - widget: image
+        name: featured_image
+        label: Featured Image
+        required: false
+        hint: Image featured in post display
+      - widget: markdown
+        name: body
+        label: Content
+        required: false
+        hint: Page content
+  - name: snippets
+    label: Snippetss
+    folder: exampleSite/content/snippets
+    create: true
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - widget: string
+        name: title
+        label: Title
+        required: false
+      - widget: markdown
+        name: body
+        label: Content
+        required: false
+        hint: Page content
