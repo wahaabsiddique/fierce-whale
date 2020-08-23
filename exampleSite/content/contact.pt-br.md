@@ -1,5 +1,5 @@
 ---
-title: Contato
+title: رابطہ
 slug: contact
 ---
 
