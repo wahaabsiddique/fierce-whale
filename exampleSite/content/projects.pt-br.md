@@ -1,5 +1,5 @@
 ---
-title: Projetos
+title: پروجیکٹ
 slug: projects
 ---
 
