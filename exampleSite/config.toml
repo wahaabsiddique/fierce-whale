@@ -72,8 +72,8 @@ weight = 3
 url = "https://instagram.com/wahaabsiddique"
 
 [params.plausibleAnalytics]
-domain = "example.com"
-serverURL = "analytics.example.com"
+domain = "wahaabsiddique.com"
+serverURL = "https://plausible.io/js/plausible.js"
 
 [params.fathomAnalytics]
 siteID = "ABCDE"
