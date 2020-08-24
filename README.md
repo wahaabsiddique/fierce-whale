@@ -2,7 +2,7 @@
 
 A simple and clean blog theme for [Hugo](https://gohugo.io/).
 
-![](https://github.com/luizdepra/hugo-coder/blob/master/images/screenshot.png)
+![](https://github.com/wahaab11/groovy-cedar/blob/master/exampleSite/static/images/FireShot%20Capture%20037%20-%20Wahaab%20Siddique%20-%20www.wahaabsiddique.com.png)
 
 ## Quick Start
 
