@@ -32,19 +32,19 @@ footercontent = "Email: baabsid99@gmail.com"
 [[params.social]]
 name = "Github"
 icon = "fab fa-github"
-weight = 1
+weight = 7
 url = "https://github.com/wahaab11/"
 
 [[params.social]]
 name = "Gitlab"
 icon = "fab fa-gitlab"
-weight = 2
+weight = 6
 url = "https://gitlab.com/wahaabsiddique/"
 
 [[params.social]]
 name = "Twitter"
 icon = "fab fa-twitter"
-weight = 3
+weight = 1
 url = "https://twitter.com/wahaabsiddique/"
 
 [[params.social]]
@@ -62,8 +62,14 @@ url = "https://medium.com/@wahaabsiddique"
 [[params.social]]
 name = "Facebook"
 icon = "fab fa-facebook"
-weight = 6
+weight = 2
 url = "https://facebook.com/wahaabsiddiquews"
+
+[[params.social]]
+name = "Instagram"
+icon = "fab fa-instagram"
+weight = 3
+url = "https://instagram.com/wahaabsiddique"
 
 [params.plausibleAnalytics]
 domain = "example.com"
