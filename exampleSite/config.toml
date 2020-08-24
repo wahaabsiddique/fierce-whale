@@ -27,7 +27,7 @@ hideCredits = false
 since = 2019
 description = "Wahaab Siddique's personal website"
 hideFooter = false
-footercontent = "Email: baabsid99@gmail.com"
+footercontent = "Email: iamwahaabsiddique@gmail.com"
 
 [[params.social]]
 name = "Github"
@@ -74,8 +74,6 @@ url = "https://instagram.com/wahaabsiddique"
 [params.plausibleAnalytics]
 domain = "wahaabsiddique.com"
 serverURL = "https://plausible.io/js/plausible.js"
-
-# Google Analytics UA number
 googleAnalytics = "UA-77218107-6"
 
 [languages]
