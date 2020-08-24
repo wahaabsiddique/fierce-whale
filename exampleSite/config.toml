@@ -1,5 +1,5 @@
 title = "Wahaab Siddique"
-baseurl = "http://www.example.com"
+baseurl = "http://www.wahaabsiddique.com"
 languagecode = "en"
 defaultcontentlanguage = "en"
 theme = "hugo-coder"
@@ -58,6 +58,12 @@ name = "Medium"
 icon = "fab fa-medium"
 weight = 5
 url = "https://medium.com/@wahaabsiddique"
+
+[[params.social]]
+name = "Facebook"
+icon = "fab fa-facebook"
+weight = 6
+url = "https://facebook.com/wahaabsiddiquews"
 
 [params.plausibleAnalytics]
 domain = "example.com"
