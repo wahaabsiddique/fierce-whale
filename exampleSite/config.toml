@@ -75,9 +75,8 @@ url = "https://instagram.com/wahaabsiddique"
 domain = "wahaabsiddique.com"
 serverURL = "https://plausible.io/js/plausible.js"
 
-[params.fathomAnalytics]
-siteID = "ABCDE"
-serverURL = "analytics.example.com"
+# Google Analytics UA number
+googleAnalytics = "UA-77218107-6"
 
 [languages]
 
