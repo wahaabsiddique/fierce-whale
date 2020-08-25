@@ -22,6 +22,7 @@ author = "Wahaab Siddique"
 info = "Welcome to the official website of Wahaab Siddique."
 custom_css = []
 avatarurl = "images/avatar1.jpg"
+favicon_32 = "/images/avatar1.png"
 custom_js = []
 commit = "https://github.com/luizdepra/hugo-coder/tree/"
 hideCredits = false
