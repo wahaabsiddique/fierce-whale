@@ -9,6 +9,7 @@ pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 disqusShortname = "odoo-1"
+googleAnalytics = "UA-77218107-6"
 
 [params]
 hideCopyright = false
