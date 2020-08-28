@@ -11,13 +11,7 @@ categories:
 ---
 # AWS vs Azure vs Firebase vs Heroku vs Netlify—How To Choose the Best Platform for Web Projects
 
-## Lots of factors go into deciding on the right platform﻿﻿
-
-[![Ali Kamalizade](https://miro.medium.com/fit/c/96/96/1*j1dM70YZR0OXA_Facb4Xww.jpeg)﻿](https://medium.com/@ali.dev?source=post_page-----482d017de254----------------------)A
-
-﻿[A](https://medium.com/@ali.dev?source=post_page-----482d017de254----------------------)﻿
-
-﻿[﻿](https://medium.com/better-programming/aws-vs-azure-vs-firebase-vs-heroku-vs-netlify-how-to-choose-the-best-platform-for-web-projects-482d017de254?source=post_page-----482d017de254----------------------) 
+## Lots of factors go into deciding on the right platform﻿﻿﻿[﻿](https://medium.com/better-programming/aws-vs-azure-vs-firebase-vs-heroku-vs-netlify-how-to-choose-the-best-platform-for-web-projects-482d017de254?source=post_page-----482d017de254----------------------) 
 
 ﻿[﻿](https://medium.com/m/signin?actionUrl=%2F_%2Fbookmark%2Fp%2F482d017de254&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fbetter-programming%2Faws-vs-azure-vs-firebase-vs-heroku-vs-netlify-how-to-choose-the-best-platform-for-web-projects-482d017de254&source=post_actions_header--------------------------bookmark_header-)﻿
 
