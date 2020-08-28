@@ -7,22 +7,7 @@ tags:
 categories:
   - PDF Book
 description: "One of the best ways to communicate one’s ideas is through some
-  form of picture or drawing. This is especially true for the engineer. The
-  purpose of this guide is to give you the basics of engineering sketching and
-  drawing.  We will treat “sketching” and “drawing” as one. “Sketching”
-  generally means freehand drawing. “Drawing” usually means using drawing
-  instruments, from compasses to computers to bring precision to the
-  drawings.  This is just an introduction. Don’t worry about understanding every
-  detail right now - just get a general feel for the language of graphics.  We
-  hope you like the object in Figure 1, because you’ll be seeing a lot of it.
-  Before we get started on any technical drawings, let’s get a good look at this
-  strange block from several angles.  ﻿ IMAGE  IMAGE  Choose different image
-  Remove image ALT TEXT TITLE Figure 1 - A Machined Block.  [](<>)Isometric
-  Drawing The representation of the object in figure 2 is called an isometric
-  drawing. This is one of a family of three-dimensional views called pictorial
-  drawings. In an isometric drawing, the object’s vertical lines are drawn
-  vertically, and the horizontal lines in the width and depth planes are shown
-  at 30 degrees to the horizontal. "
+  form of picture or drawing. This is especially true for the engineer. "
 math: true
 featured_image: /images/fireshot-capture-034-home-wahaab-siddique-www.wahaabsiddique.com.png
 ---
