@@ -8,6 +8,11 @@ tags:
   - Cloud
 categories:
   - Cloud Programming
+description: Web and mobile development has come a long way in recent years.
+  Modern web applications are often built based on powerful JavaScript features
+  like [Angular](https://angular.io/), [React](https://reactjs.org/), and
+  [Vue.js](https://vuejs.org/). While you could host those web applications
+  anywhere, you may need more than only hosting.
 ---
 # AWS vs Azure vs Firebase vs Heroku vs Netlify—How To Choose the Best Platform for Web Projects
 
