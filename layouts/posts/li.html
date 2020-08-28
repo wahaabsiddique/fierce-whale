@@ -1,8 +1,8 @@
 {{ $image := "" }}
-{{ if .Page.Params.featured_image }}
-  {{ $image = printf "%s%s" .RelPermalink .Page.Params.featured_image }}
+{{ if .Params.featured_image }}
+  {{ $image = printf "%s%s" .RelPermalink .Params.featured_image }}
 {{ else }}
-{{- with .Page.Params.featured_image -}}
+{{- with .Params.featured_image -}}
   {{ $image = printf "/%s"  (index . 0) }}
 {{ end }}
 {{ end }}
