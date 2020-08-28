@@ -1,6 +1,7 @@
 ---
 title: How To Choose the Best Platform for web Projects
 date: 2020-08-28T18:34:44.528Z
+slug: How To Choose the Best Platform for web Projects
 tags:
   - Cloud programming
 categories:
