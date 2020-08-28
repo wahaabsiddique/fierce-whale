@@ -10,6 +10,16 @@
 <li>
   
   <div>
+
+
+      <div>
+        {{ if .Params.featured_image }}
+          <img src='{{ .Params.featured_image }}' alt="Featured image"/>
+        {{ end }}
+        {{ .Content }}
+      </div>
+
+
     <a class="img-wrapper" href="{{ .RelPermalink }}">
     <img src="{{ $image }}">
     </a>
