@@ -1,6 +1,6 @@
 ---
 title: "# AWS vs Azure vs Firebase vs Heroku vs Netlify—How To Choose the Best
-  Platform for Web Projects"
+  Platform."
 date: 2020-08-28T18:34:44.528Z
 tags:
   - Cloud programming
