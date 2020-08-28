@@ -11,15 +11,15 @@ categories:
 ---
 # AWS vs Azure vs Firebase vs Heroku vs Netlify—How To Choose the Best Platform for Web Projects
 
-## Lots of factors go into deciding on the right platform
+## Lots of factors go into deciding on the right platform﻿﻿
 
-[![Ali Kamalizade](https://miro.medium.com/fit/c/96/96/1*j1dM70YZR0OXA_Facb4Xww.jpeg)﻿](https://medium.com/@ali.dev?source=post_page-----482d017de254----------------------)﻿
+[![Ali Kamalizade](https://miro.medium.com/fit/c/96/96/1*j1dM70YZR0OXA_Facb4Xww.jpeg)﻿](https://medium.com/@ali.dev?source=post_page-----482d017de254----------------------)A
 
 ﻿[A](https://medium.com/@ali.dev?source=post_page-----482d017de254----------------------)﻿
 
-﻿[9﻿](https://medium.com/better-programming/aws-vs-azure-vs-firebase-vs-heroku-vs-netlify-how-to-choose-the-best-platform-for-web-projects-482d017de254?source=post_page-----482d017de254----------------------) 
+﻿[﻿](https://medium.com/better-programming/aws-vs-azure-vs-firebase-vs-heroku-vs-netlify-how-to-choose-the-best-platform-for-web-projects-482d017de254?source=post_page-----482d017de254----------------------) 
 
-﻿[](https://medium.com/m/signin?actionUrl=%2F_%2Fbookmark%2Fp%2F482d017de254&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fbetter-programming%2Faws-vs-azure-vs-firebase-vs-heroku-vs-netlify-how-to-choose-the-best-platform-for-web-projects-482d017de254&source=post_actions_header--------------------------bookmark_header-)﻿
+﻿[﻿](https://medium.com/m/signin?actionUrl=%2F_%2Fbookmark%2Fp%2F482d017de254&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fbetter-programming%2Faws-vs-azure-vs-firebase-vs-heroku-vs-netlify-how-to-choose-the-best-platform-for-web-projects-482d017de254&source=post_actions_header--------------------------bookmark_header-)﻿
 
 ![Image for post](https://miro.medium.com/max/60/1*wkeo2W7cBxJS4oQ6Esdu4g.jpeg?q=20)
 
@@ -153,9 +153,9 @@ The downside is that cloud providers like Microsoft and Amazon offer way more fu
 
 Companies like WeWork, Verizon, and Nike are users of Netlify. Also, some popular open-source projects like [Vue.js](https://vuejs.org/) and [Kubernetes](https://kubernetes.io/) have decided to use Netlify.
 
-I have previously written an article about how to deploy an Angular app on Netlify:
+I
 
-## [How to deploy an Angular app to Netlify](https://itnext.io/how-to-deploy-an-angular-app-to-netlify-6db8c3d133e5)
+## ﻿[﻿](https://itnext.io/how-to-deploy-an-angular-app-to-netlify-6db8c3d133e5)
 
 ### [Angular is a good choice for creating enterprise-ready web applications. I stumbled over Netlify when I was looking for…](https://itnext.io/how-to-deploy-an-angular-app-to-netlify-6db8c3d133e5)
 
