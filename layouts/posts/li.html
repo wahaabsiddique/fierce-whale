@@ -2,7 +2,7 @@
 {{ if .Page.Params.featured_image }}
   {{ $image = printf "%s%s" .RelPermalink .Page.Params.featured_image }}
 {{ else }}
-{{- with .Page.Params.images -}}
+{{- with .Page.Params.featured_image -}}
   {{ $image = printf "/%s"  (index . 0) }}
 {{ end }}
 {{ end }}
