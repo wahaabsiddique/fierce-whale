@@ -1,6 +1,6 @@
 {{ $image := "" }}
-{{ if .Page.Params.hero_image }}
-  {{ $image = printf "%s%s" .RelPermalink .Page.Params.hero_image }}
+{{ if .Page.Params.featured_image }}
+  {{ $image = printf "%s%s" .RelPermalink .Page.Params.featured_image }}
 {{ else }}
 {{- with .Page.Params.images -}}
   {{ $image = printf "/%s"  (index . 0) }}
@@ -10,7 +10,7 @@
 <li>
   
     <a class="img-wrapper" href="{{ .RelPermalink }}">
-    <img src="{{ .feautred_image }}">
+    <img src="{{ $image }}">
     </a>
   <div>
     <h2><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
