@@ -9,20 +9,10 @@
 
 <li>
   
-  <div>
-
-
-      <div>
-        {{ if .Params.featured_image }}
-          <img src='{{ .Params.featured_image }}' alt="Featured image"/>
-        {{ end }}
-        {{ .Content }}
-      </div>
-
-
     <a class="img-wrapper" href="{{ .RelPermalink }}">
-    <img src="{{ $image }}">
+    <img src="{{ .feautred_image }}">
     </a>
+  <div>
     <h2><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
     <p class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</p>
     <p>{{ .Page.Params.description }}</p>
