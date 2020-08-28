@@ -1,21 +1,19 @@
 {{ $image := "" }}
-{{ if .Params.featured_image }}
-  {{ $image = printf "%s%s" .RelPermalink .Params.featured_image }}
+{{ if .Page.Params.hero_image }}
+  {{ $image = printf "%s%s" .RelPermalink .Page.Params.hero_image }}
 {{ else }}
-{{- with .Params.featured_image -}}
+{{- with .Page.Params.images -}}
   {{ $image = printf "/%s"  (index . 0) }}
 {{ end }}
 {{ end }}
 
 <li>
-  
-    <a class="img-wrapper" href="{{ .RelPermalink }}">
+  <a class="img-wrapper" href="{{ .RelPermalink }}">
     <img src="{{ $image }}">
-    </a>
+  </a>
   <div>
     <h2><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
     <p class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</p>
     <p>{{ .Page.Params.description }}</p>
-    <h4><a class="title" href="{{ .RelPermalink }}">Read more...</a></h4>
   </div>
 </li>
