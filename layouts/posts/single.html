@@ -1,13 +1,10 @@
-{{ define "title" -}}
-  {{- .Title }} · {{ .Site.Title -}}
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
 {{ end }}
 {{ define "content" }}
   <section class="container post">
     <article>
       <header>
-        {{ if .Page.Params.hero_image }}
-          <img src="{{ .Page.Params.hero_image }}">
-        {{ end }}
         <div class="post-title">
           <h1 class="title">{{ .Title }}</h1>
         </div>
@@ -29,25 +26,28 @@
         </div>
       </header>
 
-      {{- with .Content -}}
       <div>
-        {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor"> 🔗&#xFE0E;</a> ${3}` | safeHTML }}
+        {{ if .Params.featured_image }}
+          <img src='{{ .Params.featured_image }}' alt="Featured image"/>
+        {{ end }}
+        {{ .Content }}
       </div>
-      {{- end -}}
 
-      {{ partial "mailing-list-signup.html" . }}
 
-      {{ partial "social-share.html" . }}
+        {{ partial "mailing-list-signup.html" . }}
 
-      {{ partial "social-discuss.html" . }}
+        {{ partial "social-share.html" . }}
+
+        {{ partial "social-discuss.html" . }}
+
+
+
 
       <footer>
         {{ partial "posts/series.html" . }}
-
-        {{ if not .Site.IsServer }}
-          {{ partial "posts/disqus.html" . }}
-        {{ end }}
-
+        {{ partial "posts/disqus.html" . }}
+        {{ partial "posts/commento.html" . }}
+        {{ partial "posts/utterances.html" . }}
       </footer>
     </article>
 
