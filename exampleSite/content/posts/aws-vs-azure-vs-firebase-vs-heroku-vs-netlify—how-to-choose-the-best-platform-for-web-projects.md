@@ -147,13 +147,7 @@ The downside is that cloud providers like Microsoft and Amazon offer way more fu
 
 Companies like WeWork, Verizon, and Nike are users of Netlify. Also, some popular open-source projects like [Vue.js](https://vuejs.org/) and [Kubernetes](https://kubernetes.io/) have decided to use Netlify.
 
-I
 
-## ﻿[﻿](https://itnext.io/how-to-deploy-an-angular-app-to-netlify-6db8c3d133e5)
-
-### [Angular is a good choice for creating enterprise-ready web applications. I stumbled over Netlify when I was looking for…](https://itnext.io/how-to-deploy-an-angular-app-to-netlify-6db8c3d133e5)
-
-#### [itnext.io](https://itnext.io/how-to-deploy-an-angular-app-to-netlify-6db8c3d133e5)
 
 - - -
 
