@@ -6,6 +6,7 @@ tags:
   - Cloud programming
 categories:
   - Cloud
+featured_image: /images/1_wkeo2w7cbxjs4oq6esdu4g-1-.jpeg
 ---
 <!--StartFragment-->
 
