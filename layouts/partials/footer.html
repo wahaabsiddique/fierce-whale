@@ -1,26 +1,22 @@
-{{ if not .Site.Params.hideFooter | default false }}
-  <footer class="footer">
-    <section class="container">
-      {{ with .Site.Params.footercontent | safeHTML }}
-        <p>{{ . }}</p>
+<footer class="footer">
+  <section class="container">
+    {{ if not .Params.hide_affiliate_warning }}
+      {{ with .Params.Title }}
+        <p class="affiliate-disclosure">
+          <i>Disclosure: Some links on this site contain affiliate tags. Purchases you make through these links may result in the merchant paying this site a commission, though these commissions never affect the price that you pay.</i>
+        </p>
       {{ end }}
-      {{ if not .Site.Params.hideCopyright }}
-        ©
-        {{ if (and (.Site.Params.since) (lt .Site.Params.since now.Year)) }}
-          {{ .Site.Params.since }} -
-        {{ end }}
-        {{ now.Year }}
-        {{ with .Site.Params.Author }} {{ . }} {{ end }}
-      {{ end }}
-      {{ if not .Site.Params.hideCredits }}
-        {{ if not .Site.Params.hideCopyright }} · {{ end }}
-        {{ i18n "powered_by" }} <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
-      {{ end }}
-      {{ if .Site.Params.commit }}
-        {{ if .GitInfo }}
-          [<a href="{{ .Site.Params.commit }}/{{ .GitInfo.Hash }}">{{ .GitInfo.AbbreviatedHash }}</a>]
-        {{ end }}
-      {{ end }}
-    </section>
-  </footer>
-{{ end }}
+    {{ end }}
+
+
+    {{ with .Site.Params.footercontent | safeHTML }}
+      <p>{{.}}</p>
+    {{ end }}
+    Crafted with ❤️ in Pakistan.
+    {{ with .Site.Params.since }}
+      · © {{ if lt . now.Year }}{{ . }} - {{ end }}{{ now.Year }}
+    {{ else }}
+      · © {{ now.Year }}
+    {{ end }}
+  </section>
+</footer>
