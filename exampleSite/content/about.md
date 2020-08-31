@@ -2,7 +2,7 @@
 title: About Me
 slug: about
 ---
-![](/images/avatar1.jpg)
+![Wahaab Siddique](/images/avatar1.jpg "Wahaab Siddique")
 
 <!--StartFragment-->
 
