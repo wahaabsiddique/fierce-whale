@@ -2,7 +2,7 @@
 title: About Me
 slug: about
 ---
-![Wahaab Siddique](/images/avatar1.jpg "Wahaab Siddique")
+![Wahaab Siddique](/images/wahaab-siddique.jpg "Wahaab Siddique")
 
 <!--StartFragment-->
 
