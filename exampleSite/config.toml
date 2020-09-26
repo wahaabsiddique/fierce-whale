@@ -95,10 +95,7 @@ name = "Blog"
 url = "posts/"
 weight = 2
 
-[[languages.en.menu.main]]
-name = "Projects"
-url = "projects/"
-weight = 3
+
 
 [[languages.en.menu.main]]
 name = "Contact me"
@@ -129,10 +126,7 @@ name = "بلاگ"
 url = "posts/"
 weight = 2
 
-[[languages.pt-br.menu.main]]
-name = "پروجیکٹ"
-url = "projects/"
-weight = 3
+
 
 [[languages.pt-br.menu.main]]
 name = "رابطہ"
