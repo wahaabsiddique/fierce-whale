@@ -98,7 +98,7 @@ weight = 2
 
 
 [[languages.en.menu.main]]
-name = "Contact me"
+name = "Contact"
 url = "contact/"
 weight = 5
 
