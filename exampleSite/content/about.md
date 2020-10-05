@@ -2,6 +2,9 @@
 title: About Me
 slug: about
 ---
+
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
 ![Wahaab Siddique](/images/wahaab-siddique.jpg "Wahaab Siddique")
 
 <!--StartFragment-->
@@ -39,6 +42,10 @@ Short
 My name is Wahaab Siddique, and I’m the founder and CEO of this website. Along with this, I am a student of Civil Engineering.
 
 <!--EndFragment-->
+
+
+<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="wahaabsiddique"><a class="LI-simple-link" href='https://pk.linkedin.com/in/wahaabsiddique?trk=profile-badge'>Wahaab Siddique</a></div>
+
 
 <!--StartFragment-->
 
