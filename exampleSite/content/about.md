@@ -40,6 +40,8 @@ Short
 
 My name is Wahaab Siddique, and I’m the founder and CEO of this website. Along with this, I am a student of Civil Engineering.
 
+<script data-ad-client="ca-pub-2008072332362414" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!--EndFragment-->
 
 
