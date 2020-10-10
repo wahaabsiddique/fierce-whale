@@ -2,8 +2,6 @@
 title: About Me
 slug: about
 ---
-
-
 ![Wahaab Siddique](/images/wahaab-siddique.jpg "Wahaab Siddique")
 
 <!--StartFragment-->
@@ -22,7 +20,7 @@ Pronouns: He/Him
 
 **🌍 Links**
 
-[Blog](https://wahaabsiddique.com/)
+[Blog](https://blog.wahaabsiddique.com)
 
 [GitHub](https://github.com/wahaab11)
 
@@ -43,7 +41,5 @@ My name is Wahaab Siddique, and I’m the founder and CEO of this website. Along
 <script data-ad-client="ca-pub-2008072332362414" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 <!--EndFragment-->
-
-
 
 <script data-ad-client="ca-pub-2008072332362414" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
