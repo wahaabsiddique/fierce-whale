@@ -26,6 +26,8 @@ Pronouns: He/Him
 
 [Hashnode](https://hashnode.com/@WahaabSiddique)
 
+[Facebook](https://facebook.com/wahaabsiddiquews)
+
 [Instagram](https://instagram.com/wahaabsiddique)
 
 [DEV.TO](https://dev.to/wahaabsiddique)
