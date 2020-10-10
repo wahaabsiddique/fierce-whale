@@ -20,7 +20,7 @@ Pronouns: He/Him
 
 **🌍 Links**
 
-[Blog](https://blog.wahaabsiddique.com)
+[Blog](https://blog.wahaabsiddique.com) 
 
 [GitHub](https://github.com/wahaab11)
 
